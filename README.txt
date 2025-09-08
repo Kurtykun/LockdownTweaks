@@ -23,5 +23,3 @@ VFE - Post '93 - Unofficial Finish https://steamcommunity.com/sharedfiles/filede
 
 
 Full credit to all mod authors thank you for you mods and for making this possible!
-
-This mod was made assistance of Microsoft Copilot.
