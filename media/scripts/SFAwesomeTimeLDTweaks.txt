@@ -1,0 +1,21 @@
+module filcher
+{  
+    item SFBeans
+    {
+        Weight    =    1.6,
+        Type    =    Food,
+        DisplayName    =    Beans,
+        Icon    =    SFBeans,
+        EvolvedRecipe = Omelette:8;Soup:24;Stew:24;RicePot:24;RicePan:24;Sandwich:8;Sandwich Baguette:8;Toast:8;Salad:8,
+        EvolvedRecipeName = Bean,
+        FoodType = Bean,
+        HungerChange    =   -50,
+        UnhappyChange   =   40,
+        ThirstChange    =   50,
+        Carbohydrates = 66,
+        Proteins = 14,
+        Lipids = 2,
+        Calories = 340,
+        Packaged = TRUE,
+    }
+}

@@ -1,0 +1,27 @@
+module Base
+{
+item CorvusCookbookMag
+{
+    DisplayCategory = SkillBook,
+    Weight = 0.2,
+    Type = Literature,
+    DisplayName = Corvus' Cookbook,
+    Icon = Magazine,
+    TeachedRecipes = Convert .223 to 5.56;Convert box of .223 to 5.56;Write .223 converts to 5.56;Make Military Poncho,
+    ReplaceOnUse = CorvusCookbookMag,
+    StaticModel = Magazine,
+    WorldStaticModel = MagazineGround,
+}
+
+item 5.56Note
+{
+    DisplayCategory = SkillBook,
+    Weight = 0.1,
+    Type = Literature,
+    DisplayName = .223 converts to 5.56,
+    Icon = Paper,
+    TeachedRecipes = Convert .223 to 5.56;Convert box of .223 to 5.56,
+    ReplaceOnUse = 5.56Note,
+    StaticModel = SheetOfPaper,
+}
+}

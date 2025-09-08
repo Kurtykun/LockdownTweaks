@@ -1,0 +1,10 @@
+module Base
+{
+    sound FSMaintain
+    {
+        category = Player,
+        loop = FALSE,
+        is3D  = FALSE,
+        clip { file = media/sounds/silence.ogg, distanceMax = 3, volume = 0.0, }
+    }
+}
