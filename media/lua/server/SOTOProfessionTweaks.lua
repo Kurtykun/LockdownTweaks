@@ -7,7 +7,7 @@ Events.OnInitGlobalModData.Add(function()
     local recipesToAdd = {
         "Convert .223 to 5.56",
         "Convert box of .223 to 5.56", 
-        "Write .223 = 5.56 Note"
+        "Write .223 converts to 5.56 Note"
     }
     
     for i = 0, professions:size() - 1 do

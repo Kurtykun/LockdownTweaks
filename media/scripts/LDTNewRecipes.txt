@@ -30,7 +30,7 @@ module Base
        Prop2					:Magazine,
     }
 
-    recipe Write .223 converts to 5.56
+    recipe Write .223 converts to 5.56 Note
     {
         SheetPaper=1,
         keep Pen/RedPen/BluePen/Pencil,
