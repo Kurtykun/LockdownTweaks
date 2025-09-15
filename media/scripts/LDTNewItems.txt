@@ -6,11 +6,11 @@ item CorvusCookbookMag
     Weight = 0.2,
     Type = Literature,
     DisplayName = Corvus' Cookbook,
-    Icon = Magazine,
+    Icon = CorvusCookbook,
     TeachedRecipes = Convert .223 to 5.56;Convert box of .223 to 5.56;Write .223 converts to 5.56 Note;Make Military Poncho,
     ReplaceOnUse = CorvusCookbookMag,
     StaticModel = Magazine,
-    WorldStaticModel = MagazineGround,
+    WorldStaticModel = CorvusCookbookGround,
 }
 
 item 5.56Note
@@ -20,7 +20,7 @@ item 5.56Note
     Type = Literature,
     DisplayName = .223 converts to 5.56 Note,
     Icon = Paper,
-    TeachedRecipes = Convert .223 to 5.56;Convert box of .223 to 5.56,
+    TeachedRecipes = Convert .223 to 5.56;Convert box of .223 to 5.56,Write .223 converts to 5.56 Note,
     ReplaceOnUse = 5.56Note,
     StaticModel = SheetOfPaper,
 }

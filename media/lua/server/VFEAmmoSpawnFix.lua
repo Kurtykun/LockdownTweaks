@@ -78,7 +78,7 @@ table.insert(ProceduralDistributions.list.ArmyStorageGuns.items, "Base.46Pack");
 table.insert(ProceduralDistributions.list.ArmyStorageGuns.items, 0.5);
 
 table.insert(ProceduralDistributions.list.ArmyStorageGuns.items, "Base.57Pack");
-table.insert(ProceduralDistributions.list.ArmyStorageGuns.items, 05);
+table.insert(ProceduralDistributions.list.ArmyStorageGuns.items, 0.5);
 
 
 

@@ -15,7 +15,7 @@ module Base
 		Result:556Bullets=8,
         NeedToBeLearn:true,
 	}
-    
+
     recipe Copy Corvus' Cookbook
     {
        Notebook=1,
@@ -38,6 +38,13 @@ module Base
         Result: 5.56Note,
         NeedToBeLearn:true,
         Sound:MapAddNote,
+    }
+
+    recipe Gather Gunpowder
+    {
+    46Bullets/57Bullets,
+       Result:GunPowder,
+       Time:30.0,
     }
     
 	recipe Make Military Poncho

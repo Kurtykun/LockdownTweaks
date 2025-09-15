@@ -10,6 +10,17 @@ Version 1.0
 * Reduced spawn rates of 4.6 and 5.7 by 50% to account for limited weapons which utilise it. (Testing.)
 * Added recipe to create a military poncho from a yellow tarp then recipes to paint it various colours. 
 
+Version 1.1
+* Added Icon and world item for Corvus' Cookbook
+* 4.6mm and 5.7mm rounds now give gunpowder in line with all other rounds.
+* Removed Ammomaker features from VFE - Post 93 Unofficial Finish. Integrated core fixes into this mod credit to user Jenek.
+* AuthenticZ waterbottle and pop bottle can be converted back to base game waterbottle.
+* AuthenticZ lighter can be converted to base game lighter. This was the bane of my life to fix!!!
+* Added interior for the 63' VW Camper.
+* Added interior for the 73 Winnebago.
+* Added interior for the 3N Radio Van.
+* Added .223 to 5.56 recipe to traits in addition to occupations.
+
 Full list of edited mods.
 
 Food Preservation Plus https://steamcommunity.com/sharedfiles/filedetails/?id=2890748284
@@ -20,6 +31,7 @@ More Lock - key and lock management system https://steamcommunity.com/sharedfile
 Simple Overhaul: Traits and Occupations (SOTO) https://steamcommunity.com/sharedfiles/filedetails/?id=2840805724
 VFE - Post '93 https://steamcommunity.com/sharedfiles/filedetails/?id=3007780511
 VFE - Post '93 - Unofficial Finish https://steamcommunity.com/sharedfiles/filedetails/?id=3477936480 
-
+Authentic Z https://steamcommunity.com/sharedfiles/filedetails/?id=2335368829
+RV Interiors https://steamcommunity.com/sharedfiles/filedetails/?id=2822286426
 
 Full credit to all mod authors thank you for you mods and for making this possible!
