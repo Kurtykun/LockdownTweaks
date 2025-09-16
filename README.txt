@@ -18,7 +18,6 @@ Version 1.1
 * AuthenticZ lighter can be converted to base game lighter. This was the bane of my life to fix!!!
 * Added interior for the 63' VW Camper.
 * Added interior for the 73 Winnebago.
-* Added interior for the 3N Radio Van.
 * Added .223 to 5.56 recipe to traits in addition to occupations.
 * Removed a craftable firearm recipe
 
@@ -34,5 +33,6 @@ VFE - Post '93 https://steamcommunity.com/sharedfiles/filedetails/?id=3007780511
 VFE - Post '93 - Unofficial Finish https://steamcommunity.com/sharedfiles/filedetails/?id=3477936480 
 Authentic Z https://steamcommunity.com/sharedfiles/filedetails/?id=2335368829
 RV Interiors https://steamcommunity.com/sharedfiles/filedetails/?id=2822286426
+
 
 Full credit to all mod authors thank you for you mods and for making this possible!
