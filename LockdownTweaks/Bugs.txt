@@ -1,0 +1,2 @@
+Known bugs. 
+Ammo recipes dont list the occupations which are granted them. 

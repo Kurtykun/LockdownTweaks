@@ -1,0 +1,121 @@
+module Base
+{
+	recipe Convert .223 to 5.56
+	{
+		223Bullets=1,
+		Time:5,
+		Result:556Bullets=1,
+        NeedToBeLearn:true,
+	}
+
+	recipe Convert box of .223 to 5.56
+	{
+		223Box,
+		Time:50,
+		Result:556Bullets=8,
+        NeedToBeLearn:true,
+	}
+
+    recipe Copy Corvus' Cookbook
+    {
+       Notebook,
+       keep CorvusCookbookMag,
+       keep Pen/RedPen/BluePen/Pencil,
+
+       Result                   :CorvusCookbookMag,
+       Time                     :800.0,
+       Sound                    :MapAddNote,
+       AnimNode 				:Disassemble,
+       Prop1					:Source=3,
+       Prop2					:Magazine,
+    }
+
+    recipe Gather Gunpowder
+    {
+    46Bullets/57Bullets,
+       Result:GunPowder,
+       Time:30.0,
+    }
+    
+	recipe Make Military Poncho
+    {
+	    Tarp,
+	    Thread, 
+        keep KitchenKnife/HuntingKnife/Scissors,
+        keep Needle,
+        Result:MPonchoYellowUP,
+        Sound:ClothesRipping,
+        Time:300.0,
+        NeedToBeLearn:true,
+        AnimNode:RipSheets,
+      	SkillRequired:Tailoring=4,
+    }
+
+	recipe Paint Military Poncho (Green) 
+    {
+	    MPonchoYellowUP/MPonchoYellowDOWN/MPonchoShoulderYEL/MPonchoShoulderYELdown,
+	    PaintGreen,
+        keep Paintbrush,
+        Result:MPonchoGreenUP,
+        Time:300.0,
+      	SkillRequired:Tailoring=2,
+    }
+
+	recipe Paint Military Poncho (Black)
+    {
+	    MPonchoYellowUP/MPonchoYellowDOWN/MPonchoShoulderYEL/MPonchoShoulderYELdown,
+	    PaintBlack,
+        keep Paintbrush,
+        Result:MPonchoBlackUP,
+        Time:300.0,
+      	SkillRequired:Tailoring=2,
+    }
+
+    	recipe Paint Military Poncho (Red)
+    {
+	    MPonchoYellowUP/MPonchoYellowDOWN/MPonchoShoulderYEL/MPonchoShoulderYELdown,
+	    PaintRed,
+        keep Paintbrush,
+        Result:MPonchoRedUP,
+        Time:300.0,
+      	SkillRequired:Tailoring=2,
+    }
+
+    	recipe Paint Military Poncho (Navy)
+    {
+	    MPonchoYellowUP/MPonchoYellowDOWN/MPonchoShoulderYEL/MPonchoShoulderYELdown,
+	    PaintBlue,
+        keep Paintbrush,
+        Result:MPonchoNavyUP,
+        Time:300.0,
+      	SkillRequired:Tailoring=2,
+    }
+        recipe Paint Military Poncho (Brown)
+    {
+	    MPonchoYellowUP/MPonchoYellowDOWN/MPonchoShoulderYEL/MPonchoShoulderYELdown,
+	    PaintBrown,
+        keep Paintbrush,
+        Result:MPonchoBrownUP,
+        Time:300.0,
+      	SkillRequired:Tailoring=2,
+    }
+        recipe Paint Military Poncho (White)
+    {
+	    MPonchoYellowUP/MPonchoYellowDOWN/MPonchoShoulderYEL/MPonchoShoulderYELdown,
+	    PaintWhite,
+        keep Paintbrush,
+        Result:MPonchoWhiteUP,
+        Time:300.0,
+      	SkillRequired:Tailoring=2,
+    }
+        recipe Paint Military Poncho (Cowprint)
+    {
+	    MPonchoYellowUP/MPonchoYellowDOWN/MPonchoShoulderYEL/MPonchoShoulderYELdown,
+	    PaintWhite,
+        PaintBlack,
+        keep Paintbrush,
+        Result:MPonchoCowUP,
+        Time:300.0,
+      	SkillRequired:Tailoring=7,
+    }
+}
