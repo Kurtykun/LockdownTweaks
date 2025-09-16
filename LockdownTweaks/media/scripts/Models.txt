@@ -1,9 +1,0 @@
-module base
-{
-    model CorvusCookbookGround
-    {
-        mesh = WorldItems/Magazine,
-        texture = CorvusCookbook,
-        scale = 0.4,
-    }
-}
