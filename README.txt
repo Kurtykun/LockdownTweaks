@@ -20,6 +20,7 @@ Version 1.1
 * Added interior for the 73 Winnebago.
 * Added interior for the 3N Radio Van.
 * Added .223 to 5.56 recipe to traits in addition to occupations.
+* Removed a craftable firearm recipe
 
 Full list of edited mods.
 
